@@ -3,7 +3,6 @@
 
 #### `employee-bd.service.ts`
 ```bash
-# employee-bd.service.ts
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Employee } from './employees.entity';
